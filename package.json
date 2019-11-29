@@ -1,0 +1,27 @@
+{
+	"workspaces": [
+		"themes/*",
+		"demos/*"
+	],
+	"private": true,
+	"scripts": {
+		"ws": "yarn workspace"
+	},
+  "devDependencies": {
+		"husky": "latest",
+		"prettier": "latest",
+		"pretty-quick": "latest"
+	},
+	"prettier": {
+		"endOfLine": "lf",
+		"semi": false,
+		"useTabs": true,
+		"trailingComma": "es5",
+		"bracketSpacing": true
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "pretty-quick --staged"
+		}
+	}
+}
