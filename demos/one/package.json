@@ -1,0 +1,10 @@
+{
+	"name": "demo-one",
+	"version": "1.0.0",
+	"dependencies": {
+		"gatsby": "latest",
+		"gatsby-theme-one": "*",
+		"react": "latest",
+		"react-dom": "latest"
+	}
+}
