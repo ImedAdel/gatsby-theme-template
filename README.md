@@ -1,2 +1,3 @@
-# gatsby-theme-template
-Template for Gatsby themes
+# GatsbyJS Theme Template
+> A GitHub template for GatsbyJS themes.
+> — [Jamstack Studio](https://jamstack.studio)
